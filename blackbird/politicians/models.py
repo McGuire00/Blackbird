@@ -7,7 +7,7 @@ import datetime
 class Politician(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
-    date_of_birth = models.DateField
+    date_of_birth = models.DateField(max_length=8)
     party = models.CharField(max_length=50)
     state = models.CharField(max_length=100)
 
