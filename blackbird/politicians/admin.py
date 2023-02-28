@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Politician
+from .models import Senator, Representative, President
 # Register your models here.
-
-admin.site.register(Politician)
+MODELS = [Senator, Representative, President]
+admin.site.register(MODELS)
