@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Bill
 
-# Register your models here.
+MODELS = [Bill]
+admin.site.register(MODELS)
