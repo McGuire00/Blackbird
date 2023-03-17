@@ -15,7 +15,8 @@ class SenatorViewSet(viewsets.ModelViewSet):
     serializer_class = SenatorSerializer
 
     def list(self, request):
-        pass
+        serializer = SenatorSerializer(self.queryset, many=True)
+        return Response(serializer.data)
 
     def create(self, request):
         pass
