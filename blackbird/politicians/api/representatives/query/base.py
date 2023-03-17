@@ -15,7 +15,8 @@ class RepresentativeViewSet(viewsets.ModelViewSet):
     serializer_class = RepresentativeSerializer
 
     def list(self, request):
-        pass
+        serializer = RepresentativeSerializer(self.queryset, many=True)
+        return Response(serializer.data)
 
     def create(self, request):
         pass
