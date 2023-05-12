@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/politicians/', include("politicians.api.urls", namespace="politicians")),
     path('api/v1/', include("bills.api.urls", namespace="bills")),
+    path('api/v1/congress/', include("congress.api.urls", namespace="congress")),
 ]
