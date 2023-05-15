@@ -2,6 +2,7 @@ from rest_framework import viewsets
 from politicians.models import President
 from rest_framework import serializers
 from rest_framework.response import Response
+from django.shortcuts import get_object_or_404
 
 
 class PresidentSerializer(serializers.ModelSerializer):
@@ -22,7 +23,9 @@ class PresidentViewSet(viewsets.ModelViewSet):
         pass
 
     def retrieve(self, request, pk=None):
-        pass
+        president = get_object_or_404(self.queryset, pk=pk)
+        serializer = PresidentSerializer(president)
+        return Response(serializer.data)
 
     def update(self, request, pk=None):
         pass
