@@ -1,0 +1,139 @@
+{
+  "cabinet": [
+    {"0": {
+      "position": "President",
+      "name": "Joe Biden",
+      "image": "PJoeBiden.webp"
+    }},
+    {"1": {
+      "position": "Vice President",
+      "name": "Kamala Harris",
+      "image": "VPKamalaHarris.webp"
+    }},
+    {"2": {
+      "position": "Secretary of State",
+      "name": "Antony Blinken",
+      "image": "Antony_Blinken.webp"
+    }},
+    {"3": {
+      "position": "Secretary of the Treasury",
+      "name": "Dr. Janet Yellen",
+      "image": "Janet_Yellen.webp"
+    }},
+    {"4": {
+      "position": "Secretary of Defense",
+      "name": "Lloyd Austin",
+      "image": "Lloyd_Austin.webp"
+    }},
+    {"5": {
+      "position": "Attorney General",
+      "name": "Merrick Garland",
+      "image": "Merrick_Garland.webp"
+    }},
+    {"6": {
+      "position": "Secretary of the Interior",
+      "name": "Deb Haaland",
+      "image": "Deb_Haaland.webp"
+    }},
+    {"7": {
+      "position": "Secretary of Agriculture",
+      "name": "Tom Vilsack",
+      "image": "Tom_Vilsack.webp"
+    }},
+    {"8": {
+      "position": "Secretary of Commerce",
+      "name": "Gina Rainmondo",
+      "image": "Gina_Raimondo.webp"
+    }},
+    {"9": {
+      "position": "Secretary of Labor",
+      "name": "Julie Su ",
+      "image": "Julie_Su.webp"
+    }},
+    {"10": {
+      "position": "Secretary of Health and Human Services",
+      "name": "Xavier Becerra",
+      "image": "Xavier_Becerra.webp"
+    }},
+    {"11": {
+      "position": "Secretary of Housing and Urban Development",
+      "name": "Marcia Fudge ",
+      "image": "Marcia_Fudge.webp"
+    }},
+    {"12": {
+      "position": "Secretary of Transportation",
+      "name": "Pete Buttigieg ",
+      "image": "Pete_Buttigieg.webp"
+    }},
+    {"13": {
+      "position": "Secretary of Energy",
+      "name": "Jennifer Granholm",
+      "image": "Jennifer_Granholm1.webp"
+    }},
+    {"14": {
+      "position": "Secretary of Education",
+      "name": "Dr. Miguel Cardona ",
+      "image": "Miguel_Cardona.jpg"
+    }},
+    {"15": {
+      "position": "Secretary of Veterans Affairs",
+      "name": "Denis McDonough ",
+      "image": "Denis_McDonough.webp"
+    }},
+    {"16": {
+      "position":  "Secretary of Homeland Security",
+      "name": "Alejandro Mayorkas",
+      "image": "Alejandro_Mayorkas.webp"
+    }},
+    {"17": {
+      "position": "Administrator of the Environmental Protection Agency",
+      "name": "Michael Regan ",
+      "image": "Michael_Regan.webp"
+    }},
+    {"18": {
+      "position": "Director of National Intelligence",
+      "name": "Avril Haines ",
+      "image": "Avril_Haines-Blue-Background.webp"
+    }},
+    {"19": {
+      "position": "United States Trade Representative",
+      "name": "Katherine Tai ",
+      "image": "Katherine_Tai.webp"
+    }},
+    {"20": {
+      "position": "United States Ambassador to the United States",
+      "name": "Linda Thomas-Greenfield ",
+      "image": "Linda_Thomas-Greenfield.webp"
+    }},
+    {"21": {
+      "position": "Chair of the Council of Economic Advisers",
+      "name": "Jared Bernstein ",
+      "image": "Jared-Berstein.webp"
+    }},
+    {"22": {
+      "position": "Administrator of the Small Business Administration",
+      "name": "Isabel Guzman ",
+      "image": "Isabel_Guzman.webp"
+    }},
+    {"23": {
+      "position": "Director of the Office of Management and Budget",
+      "name": "Shalanda Young ",
+      "image": "Shalanda-Young-Cabinet-1.webp"
+    }},
+    {"24": {
+      "position": "Director of the Office of Science and Technology Policy",
+      "name": "Dr. Arati Prabhakar ",
+      "image": "Arati-Prabhakar-Cabinet.webp"
+    }},
+    {"25": {
+      "position": "Director of the Central Intelligence Agency",
+      "name": "William Burns ",
+      "image": "Bill-Burns.webp"
+    }},
+    { "26": {
+      "position": "Chief of Staff",
+      "name": "Jeff Zients ",
+      "image": "Jeff-Zients.webp"
+    }}
+  ]
+}
