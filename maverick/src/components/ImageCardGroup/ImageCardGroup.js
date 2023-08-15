@@ -7,7 +7,6 @@ function ImageCardGroup({cabinetMembers}) {
     <div className="image-card-container">
       {cabinetMembers.cabinet.map((member, index) => {
         const image = require(`../../assets/${member[index].image}`);
-        console.log(image)
         return ( <ImageCard
             key={index}
             imageUrl={image}
