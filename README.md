@@ -1,3 +1,3 @@
 # Blackbird
 
-Just a little something to keep tabs on who does what.
+This project is for learning and staying up to do with all things congress.
