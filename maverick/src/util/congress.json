@@ -1,0 +1,711 @@
+{
+   "members":[
+      {
+         "position":"Senator",
+         "name":"Tammy Baldwin",
+         "state":"Wisconsin",
+         "party":"Democratic",
+         "image":"Tammy_Baldwin.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"John Barrasso",
+         "state":"Wyoming",
+         "party":"Republican",
+         "image":"John_Barrasso.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Michael F. Bennet",
+         "state":"Colorado",
+         "party":"Democratic",
+         "image":"Michael F._Bennet.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Marsha Blackburn",
+         "state":"Tennessee",
+         "party":"Republican",
+         "image":"Marsha_Blackburn.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Richard Blumenthal",
+         "state":"Connecticut",
+         "party":"Democratic",
+         "image":"Richard_Blumenthal.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Cory A. Booker",
+         "state":"New Jersey",
+         "party":"Democratic",
+         "image":"Cory A._Booker.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"John Boozman",
+         "state":"Arkansas",
+         "party":"Republican",
+         "image":"John_Boozman.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Mike Braun",
+         "state":"Indiana",
+         "party":"Republican",
+         "image":"Mike_Braun.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Katie Boyd Britt",
+         "state":"Alabama",
+         "party":"Republican",
+         "image":"Katie Boyd_Britt.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Sherrod Brown",
+         "state":"Ohio",
+         "party":"Democratic",
+         "image":"Sherrod_Brown.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Ted Budd",
+         "state":"North Carolina",
+         "party":"Republican",
+         "image":"Ted_Budd.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Maria Cantwell",
+         "state":"Washington",
+         "party":"Democratic",
+         "image":"Maria_Cantwell.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Shelley Moore Capito",
+         "state":"West Virginia",
+         "party":"Republican",
+         "image":"Shelley Moore_Capito.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Benjamin L. Cardin",
+         "state":"Maryland",
+         "party":"Democratic",
+         "image":"Benjamin L._Cardin.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Thomas R. Carper",
+         "state":"Delaware",
+         "party":"Democratic",
+         "image":"Thomas R._Carper.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Jr. Casey",
+         "state":"Pennsylvania",
+         "party":"Democratic",
+         "image":"Jr._Casey.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Bill Cassidy",
+         "state":"Louisiana",
+         "party":"Republican",
+         "image":"Bill_Cassidy.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Susan M. Collins",
+         "state":"Maine",
+         "party":"Republican",
+         "image":"Susan M._Collins.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Christopher A. Coons",
+         "state":"Delaware",
+         "party":"Democratic",
+         "image":"Christopher A._Coons.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"John Cornyn",
+         "state":"Texas",
+         "party":"Republican",
+         "image":"John_Cornyn.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Catherine Cortez Masto",
+         "state":"Nevada",
+         "party":"Democratic",
+         "image":"Catherine_Cortez Masto.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Tom Cotton",
+         "state":"Arkansas",
+         "party":"Republican",
+         "image":"Tom_Cotton.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Kevin Cramer",
+         "state":"North Dakota",
+         "party":"Republican",
+         "image":"Kevin_Cramer.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Mike Crapo",
+         "state":"Idaho",
+         "party":"Republican",
+         "image":"Mike_Crapo.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Ted Cruz",
+         "state":"Texas",
+         "party":"Republican",
+         "image":"Ted_Cruz.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Steve Daines",
+         "state":"Montana",
+         "party":"Republican",
+         "image":"Steve_Daines.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Tammy Duckworth",
+         "state":"Illinois",
+         "party":"Democratic",
+         "image":"Tammy_Duckworth.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Richard J. Durbin",
+         "state":"Illinois",
+         "party":"Democratic",
+         "image":"Richard J._Durbin.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Joni Ernst",
+         "state":"Iowa",
+         "party":"Republican",
+         "image":"Joni_Ernst.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Dianne Feinstein",
+         "state":"California",
+         "party":"Democratic",
+         "image":"Dianne_Feinstein.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"John Fetterman",
+         "state":"Pennsylvania",
+         "party":"Democratic",
+         "image":"John_Fetterman.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Deb Fischer",
+         "state":"Nebraska",
+         "party":"Republican",
+         "image":"Deb_Fischer.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Kirsten E. Gillibrand",
+         "state":"New York",
+         "party":"Democratic",
+         "image":"Kirsten E._Gillibrand.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Lindsey Graham",
+         "state":"South Carolina",
+         "party":"Republican",
+         "image":"Lindsey_Graham.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Chuck Grassley",
+         "state":"Iowa",
+         "party":"Republican",
+         "image":"Chuck_Grassley.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Bill Hagerty",
+         "state":"Tennessee",
+         "party":"Republican",
+         "image":"Bill_Hagerty.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Margaret Wood Hassan",
+         "state":"New Hampshire",
+         "party":"Democratic",
+         "image":"Margaret Wood_Hassan.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Josh Hawley",
+         "state":"Missouri",
+         "party":"Republican",
+         "image":"Josh_Hawley.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Martin Heinrich",
+         "state":"New Mexico",
+         "party":"Democratic",
+         "image":"Martin_Heinrich.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"John W. Hickenlooper",
+         "state":"Colorado",
+         "party":"Democratic",
+         "image":"John W._Hickenlooper.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Mazie K. Hirono",
+         "state":"Hawaii",
+         "party":"Democratic",
+         "image":"Mazie K._Hirono.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"John Hoeven",
+         "state":"North Dakota",
+         "party":"Republican",
+         "image":"John_Hoeven.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Cindy Hyde-Smith",
+         "state":"Mississippi",
+         "party":"Republican",
+         "image":"Cindy_Hyde-Smith.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Ron Johnson",
+         "state":"Wisconsin",
+         "party":"Republican",
+         "image":"Ron_Johnson.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Tim Kaine",
+         "state":"Virginia",
+         "party":"Democratic",
+         "image":"Tim_Kaine.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Mark Kelly",
+         "state":"Arizona",
+         "party":"Democratic",
+         "image":"Mark_Kelly.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"John Kennedy",
+         "state":"Louisiana",
+         "party":"Republican",
+         "image":"John_Kennedy.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Jr. King",
+         "state":"Maine",
+         "party":"Independent",
+         "image":"Jr._King.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Amy Klobuchar",
+         "state":"Minnesota",
+         "party":"Democratic",
+         "image":"Amy_Klobuchar.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"James Lankford",
+         "state":"Oklahoma",
+         "party":"Republican",
+         "image":"James_Lankford.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Mike Lee",
+         "state":"Utah",
+         "party":"Republican",
+         "image":"Mike_Lee.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Ben Ray Lujan",
+         "state":"New Mexico",
+         "party":"Democratic",
+         "image":"Ben Ray_Lujan.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Cynthia M. Lummis",
+         "state":"Wyoming",
+         "party":"Republican",
+         "image":"Cynthia M._Lummis.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"III Manchin",
+         "state":"West Virginia",
+         "party":"Democratic",
+         "image":"III_Manchin.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Edward J. Markey",
+         "state":"Massachusetts",
+         "party":"Democratic",
+         "image":"Edward J._Markey.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Roger Marshall",
+         "state":"Kansas",
+         "party":"Republican",
+         "image":"Roger_Marshall.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Mitch McConnell",
+         "state":"Kentucky",
+         "party":"Republican",
+         "image":"Mitch_McConnell.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Robert Menendez",
+         "state":"New Jersey",
+         "party":"Democratic",
+         "image":"Robert_Menendez.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Jeff Merkley",
+         "state":"Oregon",
+         "party":"Democratic",
+         "image":"Jeff_Merkley.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Jerry Moran",
+         "state":"Kansas",
+         "party":"Republican",
+         "image":"Jerry_Moran.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Markwayne Mullin",
+         "state":"Oklahoma",
+         "party":"Republican",
+         "image":"Markwayne_Mullin.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Lisa Murkowski",
+         "state":"Alaska",
+         "party":"Republican",
+         "image":"Lisa_Murkowski.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Christopher Murphy",
+         "state":"Connecticut",
+         "party":"Democratic",
+         "image":"Christopher_Murphy.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Patty Murray",
+         "state":"Washington",
+         "party":"Democratic",
+         "image":"Patty_Murray.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Jon Ossoff",
+         "state":"Georgia",
+         "party":"Democratic",
+         "image":"Jon_Ossoff.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Alex Padilla",
+         "state":"California",
+         "party":"Democratic",
+         "image":"Alex_Padilla.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Rand Paul",
+         "state":"Kentucky",
+         "party":"Republican",
+         "image":"Rand_Paul.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Gary C. Peters",
+         "state":"Michigan",
+         "party":"Democratic",
+         "image":"Gary C._Peters.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Jack Reed",
+         "state":"Rhode Island",
+         "party":"Democratic",
+         "image":"Jack_Reed.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Pete Ricketts",
+         "state":"Nebraska",
+         "party":"Republican",
+         "image":"Pete_Ricketts.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"James E. Risch",
+         "state":"Idaho",
+         "party":"Republican",
+         "image":"James E._Risch.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Mitt Romney",
+         "state":"Utah",
+         "party":"Republican",
+         "image":"Mitt_Romney.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Jacky Rosen",
+         "state":"Nevada",
+         "party":"Democratic",
+         "image":"Jacky_Rosen.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Mike Rounds",
+         "state":"South Dakota",
+         "party":"Republican",
+         "image":"Mike_Rounds.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Marco Rubio",
+         "state":"Florida",
+         "party":"Republican",
+         "image":"Marco_Rubio.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Bernard Sanders",
+         "state":"Vermont",
+         "party":"Independent",
+         "image":"Bernard_Sanders.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Ben Sasse",
+         "state":"Nebraska",
+         "party":"Republican",
+         "image":"Ben_Sasse.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Brian Schatz",
+         "state":"Hawaii",
+         "party":"Democratic",
+         "image":"Brian_Schatz.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Eric Schmitt",
+         "state":"Missouri",
+         "party":"Republican",
+         "image":"Eric_Schmitt.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Charles E. Schumer",
+         "state":"New York",
+         "party":"Democratic",
+         "image":"Charles E._Schumer.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Rick Scott",
+         "state":"Florida",
+         "party":"Republican",
+         "image":"Rick_Scott.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Tim Scott",
+         "state":"South Carolina",
+         "party":"Republican",
+         "image":"Tim_Scott.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Jeanne Shaheen",
+         "state":"New Hampshire",
+         "party":"Democratic",
+         "image":"Jeanne_Shaheen.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Kyrsten Sinema",
+         "state":"Arizona",
+         "party":"Independent",
+         "image":"Kyrsten_Sinema.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Tina Smith",
+         "state":"Minnesota",
+         "party":"Democratic",
+         "image":"Tina_Smith.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Debbie Stabenow",
+         "state":"Michigan",
+         "party":"Democratic",
+         "image":"Debbie_Stabenow.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Dan Sullivan",
+         "state":"Alaska",
+         "party":"Republican",
+         "image":"Dan_Sullivan.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Jon Tester",
+         "state":"Montana",
+         "party":"Democratic",
+         "image":"Jon_Tester.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"John Thune",
+         "state":"South Dakota",
+         "party":"Republican",
+         "image":"John_Thune.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Thomas Tillis",
+         "state":"North Carolina",
+         "party":"Republican",
+         "image":"Thomas_Tillis.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Tommy Tuberville",
+         "state":"Alabama",
+         "party":"Republican",
+         "image":"Tommy_Tuberville.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Chris Van Hollen",
+         "state":"Maryland",
+         "party":"Democratic",
+         "image":"Chris_Van Hollen.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"J. D. Vance",
+         "state":"Ohio",
+         "party":"Republican",
+         "image":"J. D._Vance.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Mark R. Warner",
+         "state":"Virginia",
+         "party":"Democratic",
+         "image":"Mark R._Warner.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Raphael G. Warnock",
+         "state":"Georgia",
+         "party":"Democratic",
+         "image":"Raphael G._Warnock.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Elizabeth Warren",
+         "state":"Massachusetts",
+         "party":"Democratic",
+         "image":"Elizabeth_Warren.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Peter Welch",
+         "state":"Vermont",
+         "party":"Democratic",
+         "image":"Peter_Welch.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Sheldon Whitehouse",
+         "state":"Rhode Island",
+         "party":"Democratic",
+         "image":"Sheldon_Whitehouse.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Roger F. Wicker",
+         "state":"Mississippi",
+         "party":"Republican",
+         "image":"Roger F._Wicker.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Ron Wyden",
+         "state":"Oregon",
+         "party":"Democratic",
+         "image":"Ron_Wyden.jpg"
+      },
+      {
+         "position":"Senator",
+         "name":"Todd Young",
+         "state":"Indiana",
+         "party":"Republican",
+         "image":"Todd_Young.jpg"
+      }
+   ]
+}
