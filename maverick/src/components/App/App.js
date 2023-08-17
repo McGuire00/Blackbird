@@ -5,7 +5,9 @@ import './App.css';
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
-import Congress from "../Congress/Congress"
+import Congress from "../Congress/Congress";
+import NotFound from "../NotFound/NotFound";
+
 function App() {
   return (
       <Router>
@@ -17,6 +19,7 @@ function App() {
             <Route path="/congress" element={<Congress />} />
             {/*<Route path="/about" component={About} />*/}
             {/*<Route path="/contact" component={Contact} />*/}
+            <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
         </div>
