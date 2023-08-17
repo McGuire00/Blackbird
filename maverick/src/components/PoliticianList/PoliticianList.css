@@ -1,0 +1,15 @@
+.member-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: flex-start;
+  max-width: 960px;
+  margin: 0 auto; /* Center the grid */
+}
+
+.member-item {
+  flex: 0 0 calc((100% - 60px) / 4); /* 4 items per row with gaps */
+  display: flex;
+  justify-content: center;
+}
