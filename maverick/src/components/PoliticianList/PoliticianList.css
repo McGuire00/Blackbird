@@ -6,6 +6,7 @@
   justify-content: flex-start;
   max-width: 960px;
   margin: 0 auto; /* Center the grid */
+  align-self: flex-start;
 }
 
 .member-item {
