@@ -7,7 +7,10 @@ import PoliticianList from "../PoliticianList/PoliticianList";
 // import senators from "../../util/118th_congress_senators.json";
 // import representatives from "../../util/118th_congress_reps.json";
 function Congress() {
-  // TODO MAKE THIS FUNCTIONAL
+  // TODO MAKE THIS FUNCTIONAL BY WORKING WITH STATIC DATA FIRST
+  // THEN CONNECTING TO DJANGO BACKEND
+
+  const [filterOptions, setFilterOptions] = useState({});
 
   const people = {
     members: [
@@ -17,6 +20,7 @@ function Congress() {
         state: "Wisconsin",
         party: "Democratic",
         image: "Tammy_Baldwin.jpg",
+        chamber: "Senate",
       },
       {
         position: "Senator",
@@ -24,6 +28,7 @@ function Congress() {
         state: "Wyoming",
         party: "Republican",
         image: "John_Barrasso.jpg",
+        chamber: "Senate",
       },
       {
         position: "Senator",
@@ -31,6 +36,7 @@ function Congress() {
         state: "Colorado",
         party: "Democratic",
         image: "Michael F._Bennet.jpg",
+        chamber: "Senate",
       },
       {
         position: "Senator",
@@ -38,6 +44,7 @@ function Congress() {
         state: "Tennessee",
         party: "Republican",
         image: "Marsha_Blackburn.jpg",
+        chamber: "Senate",
       },
       {
         position: "Senator",
@@ -45,6 +52,7 @@ function Congress() {
         state: "Connecticut",
         party: "Democratic",
         image: "Richard_Blumenthal.jpg",
+        chamber: "Senate",
       },
       {
         position: "Senator",
@@ -52,6 +60,7 @@ function Congress() {
         state: "Wisconsin",
         party: "Democratic",
         image: "Tammy_Baldwin.jpg",
+        chamber: "Senate",
       },
       {
         position: "Senator",
@@ -59,6 +68,7 @@ function Congress() {
         state: "Wyoming",
         party: "Republican",
         image: "John_Barrasso.jpg",
+        chamber: "Senate",
       },
       {
         position: "Senator",
@@ -66,6 +76,7 @@ function Congress() {
         state: "Colorado",
         party: "Democratic",
         image: "Michael F._Bennet.jpg",
+        chamber: "Senate",
       },
       {
         position: "Senator",
@@ -73,6 +84,7 @@ function Congress() {
         state: "Tennessee",
         party: "Republican",
         image: "Marsha_Blackburn.jpg",
+        chamber: "Senate",
       },
       {
         position: "Senator",
@@ -80,14 +92,15 @@ function Congress() {
         state: "Connecticut",
         party: "Democratic",
         image: "Richard_Blumenthal.jpg",
+        chamber: "Senate",
       },
     ],
   };
 
   return (
     <div className="congress">
-      <CongressSideBar />
-      <PoliticianList people={people} />
+      <CongressSideBar setFilterOptions={setFilterOptions} />
+      <PoliticianList people={people} filterOptions={filterOptions} />
     </div>
   );
 }
