@@ -2,22 +2,30 @@ import "./CongressSideBar.css";
 
 import Accordion from "../Accordion/Accordion";
 import { useState } from "react";
-function CongressSideBar() {
+function CongressSideBar({ setFilterOptions }) {
   const filterData = [
     {
       title: "Congress",
-      options: ["118th Congress", "117th Congress", "116th Congress"],
+      label: "Congress",
+      options: [
+        "118th Congress (2023-2024)",
+        "117th Congress (2021-2022)",
+        "116th Congress (2019-2020)",
+      ],
     },
     {
       title: "Chamber",
+      label: "Chamber",
       options: ["House", "Senate"],
     },
     {
       title: "Party",
-      options: ["House", "Senate"],
+      label: "Party",
+      options: ["Democratic", "Republican"],
     },
     {
-      title: "Members by US State or Territory",
+      title: "State",
+      label: "Members by US State or Territory",
       options: [
         "Alabama",
         "Alaska",
@@ -81,7 +89,9 @@ function CongressSideBar() {
   return (
     <div className="sidebar">
       {filterData.map((filter, index) => {
-        return <Accordion filters={filter} />;
+        return (
+          <Accordion filters={filter} setFilterOptions={setFilterOptions} />
+        );
       })}
     </div>
   );
