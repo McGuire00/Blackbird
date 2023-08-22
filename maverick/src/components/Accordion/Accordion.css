@@ -67,3 +67,7 @@
 .list-item:hover > p {
   color: #0072c9;
 }
+
+label {
+  font-size: 12px;
+}
