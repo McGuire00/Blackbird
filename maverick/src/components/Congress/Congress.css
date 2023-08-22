@@ -1,4 +1,10 @@
 .congress {
-    display: flex;
-    margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  /*align-items: flex-start;*/
+}
+
+.centered-container{
+  display: flex;
+  justify-content: center;
 }

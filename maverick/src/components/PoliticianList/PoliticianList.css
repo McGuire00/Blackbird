@@ -5,7 +5,7 @@
   padding: 20px;
   justify-content: flex-start;
   max-width: 960px;
-  margin: 0 auto; /* Center the grid */
+  /*margin: 0 auto; !* Center the grid *!*/
   align-self: flex-start;
 }
 
@@ -13,4 +13,9 @@
   flex: 0 0 calc((100% - 60px) / 4); /* 4 items per row with gaps */
   display: flex;
   justify-content: center;
+}
+
+.no-results{
+  min-height: 800px; /* Set a minimum height for the container */
+  min-width: 1000px; /* Set a minimum height for the container */
 }

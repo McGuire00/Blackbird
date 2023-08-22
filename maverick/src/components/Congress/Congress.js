@@ -99,8 +99,10 @@ function Congress() {
 
   return (
     <div className="congress">
-      <CongressSideBar setFilterOptions={setFilterOptions} />
-      <PoliticianList people={people} filterOptions={filterOptions} />
+      <div className="centered-container">
+        <CongressSideBar setFilterOptions={setFilterOptions} />
+        <PoliticianList people={people} filterOptions={filterOptions} />
+      </div>
     </div>
   );
 }
