@@ -98,7 +98,7 @@ function Congress() {
   };
 
   return (
-    <div className="congress">
+    <div className="congress" data-testid="congress">
       <div className="centered-container">
         <CongressSideBar setFilterOptions={setFilterOptions} />
         <PoliticianList people={people} filterOptions={filterOptions} />
