@@ -1,18 +1,19 @@
-import "./ImageCardGroup.css"
-
+import "./ImageCardGroup.css";
 
 import ImageCard from "../ImageCard/ImageCard";
-function ImageCardGroup({cabinetMembers}) {
+function ImageCardGroup({ cabinetMembers }) {
   return (
     <div className="image-card-container">
       {cabinetMembers.cabinet.map((member, index) => {
         const image = require(`../../assets/cabinet/${member[index].image}`);
-        return ( <ImageCard
+        return (
+          <ImageCard
             key={index}
             imageUrl={image}
             name={member[index].name}
             position={member[index].position}
-        />)
+          />
+        );
       })}
     </div>
   );
