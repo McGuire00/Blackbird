@@ -87,7 +87,7 @@ function CongressSideBar({ setFilterOptions }) {
     },
   ];
   return (
-    <div className="sidebar">
+    <div className="sidebar" data-testid="congress-side-bar">
       {filterData.map((filter, index) => {
         return (
           <Accordion filters={filter} setFilterOptions={setFilterOptions} />
