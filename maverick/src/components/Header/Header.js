@@ -13,7 +13,11 @@ function Header() {
         <ul className="header-nav-list">
           <li className="header-nav-item">Politicians</li>
           <li className="header-nav-item">
-            <Link className="nav-link" to="/congress">
+            <Link
+              className="nav-link"
+              to="/congress"
+              data-testid="congress-link"
+            >
               Congress
             </Link>
           </li>
