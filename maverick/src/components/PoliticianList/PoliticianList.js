@@ -32,7 +32,7 @@ function PoliticianList({ people, filterOptions }) {
   }
 
   return (
-    <div className="member-list-container">
+    <div className="member-list-container" data-testid="politician-list">
       {filteredMembers.map((member, index) => {
         const image = require(`../../assets/congress_sessions/118th_congress/senators/${member.image}`);
         return (
