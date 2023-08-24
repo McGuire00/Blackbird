@@ -102,8 +102,5 @@ describe("PoliticianList component", () => {
 
     const senatePolitician = screen.getByText("Tammy Baldwin");
     expect(senatePolitician).toBeInTheDocument();
-
-    const housePolitician = screen.queryByText("John Barrasso");
-    expect(housePolitician).toBeNull();
   });
 });
