@@ -6,6 +6,7 @@ class Politician(models.Model):
     name = models.CharField(max_length=100)
     # date_of_birth = models.DateField(max_length=8, null=True, blank=True)
     party = models.CharField(max_length=50)
+    position = models.CharField(max_length=50)
     state = models.CharField(max_length=100)
     image = models.ImageField(upload_to='politician_images/', blank=True, null=True)
 
@@ -15,9 +16,9 @@ class Politician(models.Model):
     class Meta:
         abstract = True
 
-    @property
-    def age(self):
-        return datetime.date.today() - self.date_of_birth
+    # @property
+    # def age(self):
+    #     return datetime.date.today() - self.date_of_birth
 
 
 class Senator(Politician):
@@ -30,3 +31,12 @@ class Representative(Politician):
 
 class President(Politician):
     pass
+
+
+class CabinetMember(models.Model):
+    name = models.CharField(max_length=100)
+    position = models.CharField(max_length=50)
+    image = models.ImageField(upload_to='cabinet/', blank=True, null=True)
+
+    def __str__(self):
+        return self.name
