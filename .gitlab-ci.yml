@@ -21,6 +21,11 @@ stages:          # List of stages for jobs, and their order of execution
   - test
   - deploy
 
+before_script:
+  - apt-get update -qy
+  - apt-get install docker-ce -y
+  - docker --version
+
 build-front-end:       # This job runs in the build stage, which runs first.
   stage: build
   script:
