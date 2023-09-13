@@ -25,8 +25,6 @@ image:            # Official docker compose image.
   name: docker/compose:latest
 
 before_script:
-  - apt-get update -qy
-  - apt-get install docker-ce -y
   - docker --version
 
 build-front-end:       # This job runs in the build stage, which runs first.
