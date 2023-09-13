@@ -21,6 +21,9 @@ stages:          # List of stages for jobs, and their order of execution
   - test
   - deploy
 
+image:            # Official docker compose image.
+  name: docker/compose:latest
+
 before_script:
   - apt-get update -qy
   - apt-get install docker-ce -y
