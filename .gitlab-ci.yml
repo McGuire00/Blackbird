@@ -24,6 +24,9 @@ stages:          # List of stages for jobs, and their order of execution
 image:            # Official docker compose image.
   name: docker/compose:latest
 
+services:
+  - docker:dind
+
 before_script:
   - docker --version
 
