@@ -25,9 +25,10 @@ build-dind:
   stage: build
   image:            # Official docker compose image.
     name: docker:latest
-
   services:
     - docker:dind
+  script:
+    - docker --version
 
 #before_script:
 #  - docker --version
