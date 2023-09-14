@@ -21,14 +21,14 @@ stages:          # List of stages for jobs, and their order of execution
   - test
   - deploy
 
-image: node:latest
+image:            # Official docker compose image.
+  name: docker:latest
 
 services:
   - docker:dind
 
 before_script:
   - docker --version
-  - apk add docker
 
 build-front-end:       # This job runs in the build stage, which runs first.
   stage: build
