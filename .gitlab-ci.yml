@@ -28,14 +28,13 @@ services:
   - docker:dind
 
 before_script:
-  - docker --version
+  - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
 
 build-front-end:       # This job runs in the build stage, which runs first.
   stage: build
   script:
     - echo "Building Frontend..."
-    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
-    - docker build -t registry.gitlab.com/mcguire001/blackbird -f maverick/Dockerfile .
+    - docker build -f maverick/Dockerfile -t registry.gitlab.com/mcguire001/blackbird .
 #    - docker compose -f maverick/docker-compose.yml build
     - docker push registry.gitlab.com/mcguire001/blackbird
 
@@ -43,8 +42,7 @@ build-back-end:       # This job runs in the build stage, which runs first.
   stage: build
   script:
     - echo "Building Backend..."
-    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
-    - docker build -t registry.gitlab.com/mcguire001/blackbird -f blackbird/Dockerfile .
+    - docker build -f blackbird/Dockerfile -t registry.gitlab.com/mcguire001/blackbird .
 #    - docker compose -f blackbird/docker-compose.yml build
     - docker push registry.gitlab.com/mcguire001/blackbird
 
