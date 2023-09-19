@@ -54,7 +54,8 @@ font-end-test:   # This job runs in the test stage.
     - echo "Pulling Frontend Image..."
     - docker pull $MAVERICK_IMAGE_NAME:latest
     - echo "Running unit tests..."
-    - docker run $MAVERICK_IMAGE_NAME:latest npm test-all
+    - docker run $MAVERICK_IMAGE_NAME:latest
+    - npm run test-all
 
 deploy-job:      # This job runs in the deploy stage.
   stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
