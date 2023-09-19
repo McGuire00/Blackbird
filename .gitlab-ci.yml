@@ -21,6 +21,10 @@ stages:          # List of stages for jobs, and their order of execution
   - test
   - deploy
 
+variables:
+  MAVERICK_IMAGE_NAME: registry.gitlab.com/mcguire001/blackbird/maverick
+  BLACKBIRD_IMAGE_NAME: registry.gitlab.com/mcguire001/blackbird/blackbird
+
 image:            # Official docker compose image.
   name: docker:latest
 
@@ -34,17 +38,17 @@ build-front-end:       # This job runs in the build stage, which runs first.
   stage: build
   script:
     - echo "Building Frontend..."
-    - docker build -f maverick/Dockerfile -t registry.gitlab.com/mcguire001/blackbird .
+    - docker build -t $MAVERICK_IMAGE_NAME ./maverick
 #    - docker compose -f maverick/docker-compose.yml build
-    - docker push registry.gitlab.com/mcguire001/blackbird
+    - docker push $MAVERICK_IMAGE_NAME
 
 build-back-end:       # This job runs in the build stage, which runs first.
   stage: build
   script:
     - echo "Building Backend..."
-    - docker build -f blackbird/Dockerfile -t registry.gitlab.com/mcguire001/blackbird .
+    - docker build -t $BLACKBIRD_IMAGE_NAME ./blackbird
 #    - docker compose -f blackbird/docker-compose.yml build
-    - docker push registry.gitlab.com/mcguire001/blackbird
+    - docker push $BLACKBIRD_IMAGE_NAME
 
 font-end-test:   # This job runs in the test stage.
   stage: test    # It only starts when the job in the build stage completes successfully.
