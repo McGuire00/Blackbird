@@ -39,7 +39,6 @@ build-front-end:       # This job runs in the build stage, which runs first.
   script:
     - echo "Building Frontend..."
     - docker build -t $MAVERICK_IMAGE_NAME ./maverick
-#    - docker compose -f maverick/docker-compose.yml build
     - docker push $MAVERICK_IMAGE_NAME
 
 build-back-end:       # This job runs in the build stage, which runs first.
@@ -47,15 +46,15 @@ build-back-end:       # This job runs in the build stage, which runs first.
   script:
     - echo "Building Backend..."
     - docker build -t $BLACKBIRD_IMAGE_NAME ./blackbird
-#    - docker compose -f blackbird/docker-compose.yml build
     - docker push $BLACKBIRD_IMAGE_NAME
 
 font-end-test:   # This job runs in the test stage.
   stage: test    # It only starts when the job in the build stage completes successfully.
 #  image: maverick-maverick
   script:
+    - echo "Pulling Frontend Image..."
+    - docker pull $MAVERICK_IMAGE_NAME:latest
     - echo "Running unit tests..."
-    - docker image ls
     - npm test-all
 
 deploy-job:      # This job runs in the deploy stage.
