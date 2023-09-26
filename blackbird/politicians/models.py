@@ -11,7 +11,7 @@ class Politician(models.Model):
     image = models.ImageField(upload_to='politician_images/', blank=True, null=True)
 
     def __str__(self):
-        return f"{self.first_name} {self.last_name}"
+        return f"{self.name}"
 
     class Meta:
         abstract = True
